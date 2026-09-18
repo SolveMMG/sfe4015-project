@@ -1,0 +1,8 @@
+{
+  "name": "uhmrs",
+  "version": "2.0.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {"dev": "npm run dev -w @uhmrs/api & npm run dev -w @uhmrs/web", "build": "npm run build -w @uhmrs/api && npm run build -w @uhmrs/web", "db:generate": "npm run prisma:generate -w @uhmrs/api", "db:seed": "npm run prisma:seed -w @uhmrs/api"},
+  "engines": {"node": ">=18"}
+}
