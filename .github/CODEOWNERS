@@ -1,0 +1,13 @@
+# Code owners for the UHMRS case-study repository.
+# Review by a code owner is required on every pull request into main,
+# per the Software Configuration Management Plan (docs/SCM_PLAN.md).
+
+# Default owner for everything not matched below.
+*                       @SolveMMG
+
+# Controlled configuration items calling for explicit configuration-manager review.
+/docs/                  @SolveMMG
+/.github/               @SolveMMG
+/apps/api/prisma/       @SolveMMG
+/package.json           @SolveMMG
+/VERSION                @SolveMMG
